@@ -45,3 +45,42 @@
     text-align: center;
     align-self: center;
   }
+  .header--title-container h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+  }
+  .header--title-container p{
+    margin-top: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 50rem;
+    line-height: 1.8rem;
+    color: var(--off-white);
+  }
+  .header--title-container .header--button{
+    position: absolute;
+    top: 27rem;
+    left: calc(50% - 118px);
+    display: block;
+    margin-top: 3.5rem;
+    padding: 1.5rem;
+    width: 22.9rem;
+    height: 4.8rem;
+    background-color: var(--off-white);
+    /* Sombra */
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+  }
+  .header--button span{
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('../assets/icons/list-arrow.svg');
+  }
