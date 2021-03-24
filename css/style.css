@@ -186,7 +186,7 @@
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 1.7rem;
-    color: #757575;
+    color: var(--grey);
   }
   .currency-table--container .down{
     display: inline-block;
@@ -462,4 +462,8 @@
   .left a{
     text-decoration: none;
     color: var(--just-white);
+  }
+  footer img{
+    width: 64px;
+    height: 50px;
   }
