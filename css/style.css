@@ -272,7 +272,7 @@
   .product-detail--card .clock, .product-detail--card .eye, .product-detail--card .dollar, .product-detail--card .check{
     display: inline-block;
     width: 20px;
-    height: 20px;
+    min-height: 20px;
     margin-bottom: 10px;
     background-size: cover;
     background-position: center;
